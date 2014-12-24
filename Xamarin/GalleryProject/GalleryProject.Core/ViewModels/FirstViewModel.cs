@@ -9,15 +9,15 @@ namespace GalleryProject.Core.ViewModels
     {
         public FirstViewModel()
         {
-            Items = new List<Picture>();
+            Pictures = new List<Picture>();
             for (var i = 0; i < 200; i++)
-                Items.Add(new Picture()
+                Pictures.Add(new Picture()
                 {
                     Name = i.ToString(),
                     SourceUrl = "http://lorempixel.com/1024/768/abstract/?v=" + i.ToString()
                 });
         }
 
-        public List<Picture> Items { get; private set; }
+        public List<Picture> Pictures { get; private set; }
     }
 }
