@@ -7,7 +7,7 @@ public class Picture {
 
     public Picture(String name) {
         Name = name;
-        SourceUrl = "http://lorempixel.com/1024/768/abstract/?v=" + name;
+        SourceUrl = "http://lorempixel.com/1280/1024/abstract/?v=" + name;
     }
 
     public String getName() {

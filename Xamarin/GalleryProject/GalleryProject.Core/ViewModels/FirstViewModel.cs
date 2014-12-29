@@ -14,7 +14,7 @@ namespace GalleryProject.Core.ViewModels
                 Pictures.Add(new Picture()
                 {
                     Name = i.ToString(),
-                    SourceUrl = "http://lorempixel.com/1024/768/abstract/?v=" + i.ToString()
+                    SourceUrl = "http://lorempixel.com/1280/1024/abstract/?v=" + i.ToString()
                 });
         }
 
